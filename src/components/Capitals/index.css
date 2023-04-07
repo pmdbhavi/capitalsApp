@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fafc;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.heading {
+  color: #323f4b;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.searchCon {
+  color: #000000;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search {
+  margin-right: 10px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 30%;
+  cursor: pointer;
+}
+
+.option {
+  color: black;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .con {
+    width: 90%;
+  }
+}
